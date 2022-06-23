@@ -1,0 +1,42 @@
+footer{
+    background: #1E5128;
+    padding-top: 40px;
+    color: #fff;
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        h3{
+            font-size: 1.8rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 3rem;
+        }
+        p{
+            max-width: 500PX;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px;
+        }
+    }
+    .links{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+        li{
+            margin: 0 10px;
+            a{
+                color: #fff;
+                text-decoration: none;
+                i{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,53 @@
+.contenedor-formulario{
+    min-height: calc(100vh - 65px - 300px);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin: 90px;
+    h2{
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+    p{
+        margin-bottom: 30px;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    a{
+        margin-bottom: 15px;
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        color: black;
+        font-weight: 700;
+        i{
+            color: #4E9F3D;
+            margin-right: 10px;
+        }
+    }
+    .campo, textarea{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid green;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+    .form textarea{
+        max-width: 930px;
+        min-width: 930px;
+        max-height: 150px;
+        min-height: 140px;
+    }
+    .btn-enviar{
+        padding: 15px;
+        font-size: 16px;
+        border: none;
+        outline: 0px;
+        background: green;
+        color: #fff;
+        border-radius: 3px;
+    }
+}
